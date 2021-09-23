@@ -464,7 +464,7 @@ namespace CS16
                                             if (Components.VisualsComponent.DrawTextDist.Enabled)
                                             {
                                                 double playerDist = GetDistance3D(myEyePos, entityData.Origin) / 22.0f;
-                                                dist_str = $"[MatrixCheats.com / Free Hack]"; //only 1 demical number after the dot
+                                                dist_str = $"[{playerDist.ToString("0.0")}]"; //only 1 demical number after the dot
                                             }
                                             if (Components.VisualsComponent.DrawTheVisuals.Enabled)
                                             {
